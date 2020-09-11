@@ -1,0 +1,459 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.conteiner {
+    background: #323232;
+    height: 30vh;
+    width: 100%;
+    
+}
+
+.logo {
+    width: 179px;
+    height: 43px;
+    padding-left: 55px;
+    padding-top: 25px;
+    float: left;
+    cursor: pointer;
+}
+
+.menu {
+    float: right;
+}
+
+.content {
+    margin-right: 100px;
+}
+
+ul li  {
+    display: inline-block;
+    padding-top: 56px;
+    
+}
+
+ul li a {
+    font-size: 17px;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.home-color {
+    color: #00E9A5;
+}
+
+ul li a:hover {
+    color: #00E9A5;
+}
+
+.btn1 {
+    outline: 2px solid #00E9A5;
+    outline-offset: -6px;
+}
+
+.btn1:hover {
+    background: #00E9A5;
+    color: #fff;
+}
+
+.body-content {
+    background: #323232;
+    height: 60vh;
+    width: 100%; 
+    position: absolute;
+}
+
+.text-1 {
+    float: left;
+}
+
+.my-img {
+    float: right
+}
+
+.hello {
+    padding-left: 105px;
+    font-size: 35px;
+    color: #00E9A5;
+}
+
+.faruk {
+    padding-left: 105px;
+    font-size: 80px;
+    margin-top: 5px;
+    color: #fff;
+    letter-spacing: -2px;
+}
+
+.head {
+    padding-left: 105px;
+    font-size: 35px;
+    color: #fff;
+    padding-top: 100px;
+}
+
+span {
+    letter-spacing: 5px;
+}
+
+.size-img {
+    width: 407px;
+    height: 418px;
+    margin-right: 200px;
+    margin-top: -25px;
+
+}
+
+.box-design {
+    height: 120vh;
+    width: 100%;
+    margin-top: 218px;
+    background: #1E1E1E;
+}
+
+.left {
+    margin-left: 90px;
+}
+
+.box {
+    width: 350px;
+    height: 364px;
+    margin-top: 250px;
+    margin-left: 25px;
+    text-align: center;
+    background: #212121;
+    display: inline-block;
+    
+}
+
+.box-icon {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.h2-class, p {
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.box-p{
+    line-height: 35px;
+    font-size: 19px;
+    margin-top: 30px;
+}
+
+.box:hover {
+    outline: 1px solid #fff;
+    outline-offset: 1px;
+}
+
+.skills {
+    background: #1E1E1E;
+    overflow: hidden;
+    height: 90vh;
+}
+.skill-heading {
+    text-align: center;
+    
+}
+
+.my-ex {
+    color: #14D69D;
+    padding-top: 30px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.icon-side {
+    width: 470px;
+    height: 120px;
+    text-align: center;
+    margin-top: 40px;
+    display: inline-block;
+    margin-left: 25px;
+    background: #323232;
+    cursor: pointer;
+}
+
+.font-icon {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.float-right-side {
+    float: right;
+    margin-right: 100px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 25px;
+    color: #fff;
+}
+
+h4 {
+    font-size: 22px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.center {
+    margin-left: 150px;
+}
+
+.icon-side:hover {
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.fb-cover {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-site {
+    background: url(img/bg1.jpg);
+    height: 145vh;
+    
+}
+
+.my2 {
+    font-size: 25px;
+    padding-top: 70px;
+}
+
+.content-center {
+    margin-left: 110px;
+}
+
+.sizing-photo {
+    width: 300px;
+    height: 300px;
+    
+    
+}
+
+.site-photo {
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    background: #1E1E1E;
+}
+
+.sizing-photo:hover {
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+
+.textmolial {
+    background: #1E1E1E;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.team {
+    width: 600px;
+    height: 320px;
+    border: 1px solid #7B7B7B;
+    margin-left: 50px;
+    background: #323232;
+    margin-top: 40px;
+    border-radius: 12px;
+    display: inline-block;
+    box-shadow:  -2px -3px #ffd800;
+}
+
+.team:hover {
+    box-shadow:  5px 9px #ff0000;
+    transition: 1s;
+    
+}
+
+.aligment {
+    margin-left: 30px;
+    padding-top: 30px;
+
+}
+
+.team-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    float: left;
+}
+
+.left-tag {
+    float: right;
+    margin-right: 230px;
+}
+
+.web {
+    margin-top: -45px;
+    color: #27CCA1;
+}
+
+.faruk-de {
+    float: left;
+}
+
+.dis {
+    padding-top: 30px;
+    font-size: 23px;
+    line-height: 28px;
+}
+
+
+
+.price {
+    background: #323232;
+    height: 145vh;
+}
+
+.price-content {
+    width: 340px;
+    height: 600px;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-top: 40px;
+    background: #1E1E1E;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #1E1E1E;
+    
+}
+
+.personal-price {
+    margin-left: 70px;
+}
+
+.perso {
+    padding-bottom: 1px;
+    padding-top: 20px;
+}
+
+.price-p-tag {
+    font-size: 18px;
+}
+
+.dollar {
+    color: #17C9A5;
+}
+
+.new-span {
+    color: aliceblue;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn2 {
+    outline: 1px solid #17C9A5;
+    outline-offset: 15px;
+ 
+}
+
+.btn2:hover {
+    color: crimson;
+}
+
+.solial-media {
+    padding-top: 70px;
+}
+
+.friends {
+    float: right;
+    padding-right: 20px;
+}
+
+.float-left {
+    float: left;
+    padding-left: 30px;
+}
+
+
+.footer {
+    height: 67vh;
+    background: #323232;
+    overflow: hidden;
+}
+
+.footer-logo {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.footer-text {
+    padding-left: 600px;
+    padding-top: 40px;
+}
+
+.btn4 {
+    float: right;
+    padding: 16px 34px;
+    font-size: 16px;
+    margin-top: -195px;
+    background: #00b1ac;
+    color: #fff;
+    border: 1px solid #00b1ac;
+    margin-right: 100px;
+    border-radius: 5px;
+}
+
+.btn4:hover {
+    background: #fff;
+    color: #323232;
+}
+
+.footer-p {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 50px;
+    
+}
+
+.top {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #17C9A5;
+    border-radius: 100%;
+    background: #1E1E1E;
+}
+
+.footer-left {
+    margin-left: 1250px;
+}
+
+.topbar{
+    text-align: center;
+    padding-top: 18px;
+    color: #17C9A5;
+    font-size: 30px;
+}
+
+.top:hover {
+    background: #27CCA1;
+}
+
+.topbar {
+    color: aliceblue;
+}
